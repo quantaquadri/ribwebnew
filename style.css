@@ -720,9 +720,9 @@ color:#000;
 	color:#fff;
 }
 .btn--green-bg{
-	color:#111935;
-	background-color:#33ffbd;
-	border:2px #33ffbd solid;
+	color:#fff;
+	background-color:#f9508c;
+	border:2px #f9508c solid;
 }
 .btn--green-bg:hover{
 	color:#111935;
@@ -956,7 +956,7 @@ color:#000;
 /*  7.3 CUSTOM SECTION - FEATURES	 			 */
 /*===============================================*/
 .section--features{
-	background-color:#33ffbd;
+	background-color:#fff5f9;
 	position:relative;
 }
 .section__content--features{
@@ -998,6 +998,7 @@ color:#000;
 	padding:10px 0 40px 0;
 	margin:0px;
 	position:relative;
+	text-align: center;
 }
 .grid--features .grid__title:after {
     content:'';
@@ -1211,7 +1212,21 @@ color:#000;
 	-webkit-box-shadow: inset  2px 0px 0px 0px  #fff;
 	box-shadow: inset  2px 0px 0px 0px  #fff;
 	-moz-box-shadow: inset  2px 0px 0px 0px  #fff;
+	display: none;
 }
+
+.pricing__plans{       
+	background-color:#f7f8f9;
+	width: 25%;  
+	padding:40px 0;	
+	float: left;
+	left: 35%;
+	position: relative;
+	-webkit-box-shadow: inset  2px 0px 0px 0px  #fff;
+	box-shadow: inset  2px 0px 0px 0px  #fff;
+	-moz-box-shadow: inset  2px 0px 0px 0px  #fff;
+}
+
 .pricing__plan--popular {
 	z-index: 2;
 	top: -30px;
@@ -1626,7 +1641,7 @@ svg.svg-cta-bottom {
 /*  7.10 CUSTOM SECTION - CONTACT	 			 */
 /*===============================================*/
 .grid--contact{
-	background-color:#33ffbd;
+	background-color:#fff5f9;
 	color:#111935;
 	display: flex;
 }
@@ -1660,7 +1675,7 @@ svg.svg-cta-bottom {
 /*  CONTACT	FORM */
 /*----------------------------------------------*/
 .grid__item--form{
-	background-color:#f7f8f9;
+	background-color:#fefefe;
 }
 .grid__form{
 	width:70%;
@@ -2628,6 +2643,17 @@ ul.grid__list--fmenu li {
 	box-shadow: none;
 	-moz-box-shadow: none;
 }
+.pricing__plans{       
+	/* display: none; */
+	width: 100%;  
+	padding:20px 0;	
+	margin:0 0 10px 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	float: left;
+	left: 0px;
+}
 .pricing__plan--popular {
 	z-index: 2;
 	top: 0px;
@@ -2748,3 +2774,9 @@ svg.svg-cta-bottom {
 	padding:8px 15px; 
 }
 }
+
+img.toga {
+	display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+  }
