@@ -1921,8 +1921,8 @@ transition: all 0.3s 0.12s;
 }
 .modal__header{
   width:96%;
-  background-color:#33ffbd;
-  color:#111935;
+  background-color:#111935;
+  color:#fff;
   font-size:20px;
   font-weight:300;
   padding: 15px 2%;
@@ -1966,20 +1966,21 @@ transition: all 0.3s 0.12s;
 	margin:auto;
 }
 .modal__content--login{
-  background-color:#33ffbd;
+  background-color:#fafafa;
+  color: #fff;
 }
 .modal__content--forgot{
   background-color:#33ffbd;
 }
 .modal__content--signup{
-  background-color:#ff4b7a;
+  background-color:#f9508c;
 }
 .modal__info{
 	width:34%;
 	display: table-cell;
 	height:100%;
 	padding:40px 3%;
-	color:#111935;
+	color:#000;
 -webkit-transition:all 0.3s 0.12s;
 -moz-transition: all 0.3s 0.12s;
 transition: all 0.3s 0.12s;
@@ -2051,9 +2052,9 @@ transition: all 0.3s 0.12s;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
-	color: #33ffbd;
+	color: #fff;
 	background-color:transparent;
-	border: 2px #33ffbd solid;
+	border: 2px #fff solid;
 	cursor:pointer;
 	font-weight:700;
 }
@@ -2079,7 +2080,7 @@ transition: all 0.3s 0.12s;
 	padding:10px 0 0 0;
 }
 .modal__checkbox{text-align:left;line-height:14px; clear:both;}
-.modal__checkbox label {	cursor: pointer;}
+.modal__checkbox label {	cursor: pointer; color: #777;}
 .modal__checkbox input[type="checkbox"] {display: none;}
 .modal__checkbox input[type="checkbox"] + label:before{
 	border:none;
