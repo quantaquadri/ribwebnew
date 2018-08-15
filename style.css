@@ -1,35 +1,5 @@
 
 
-
-/*----------------------------------------------------------------- 
-[Table of Contents]
-
-1. RESET
-2. GENERAL
-	2-1 HEADINGS
-3. HEADER
-4. SECTION
-5. GRID
-	5.1 GRID ELEMENTS
-6. BUTTONS
-7. CUSTOM SECTIONS 
-	7.1 CUSTOM SECTION - INTRO
-	7.2 CUSTOM SECTION - ABOUT	
-	7.3 CUSTOM SECTION - FEATURES
-	7.4 CUSTOM SECTION - TESTIMONIALS 
-	7.5 CUSTOM SECTION - PRICING 
-	7.6 CUSTOM SECTION - CTA 
-	7.7 CUSTOM SECTION - HOW IT WORKS (HIW)
-	7.8 CUSTOM SECTION - SUPPORT
-	7.9 CUSTOM SECTION - CLIENTS
-	7.10 CUSTOM SECTION - CONTACT
-	7.11 CUSTOM SECTION - LOGIN/SIGNUP MODAL
-8. FOOTER
-9. MEDIA QUERIES
-*/
-/*===============================================*/
-/* 1. RESET		 						 */
-/*===============================================*/
 @import "css/reset.css";
 /*===============================================*/
 /* 2. GENERAL		 						 */
@@ -285,7 +255,7 @@ color:#000;
 	color:#111935;
 }
 .header__menu ul li  a:hover, .header__menu ul li a.selected , .header__menu ul li a.active{
-	color: #000;
+	color: #f9508c;
 }
 .header__menu ul li.header__btn--signup a.active { 
 	color:#000; 
@@ -1388,7 +1358,7 @@ color:#000;
 }
 .pricing__list li {
 	padding:3px 0 3px 12%;
-	text-align:left;
+	text-align:center;
 	line-height:24px;
 	background:url(images/checked-pricing.png) no-repeat 0 50%;
 }
@@ -2099,7 +2069,7 @@ transition: all 0.3s 0.12s;
 	border:none;
 	background-color:#f7f8f9;
 }
-.modal__checkbox input[type="checkbox"]:checked + label:before {color: #fff;content: "\2713";border:none;	text-align: center;background-color:#33ffbd; }
+.modal__checkbox input[type="checkbox"]:checked + label:before {color: #fff;content: "\2713";border:none;	text-align: center;background-color:#f9508c; }
 .modal__checkbox input[type="checkbox"]:checked + label:after {font-weight: bold;}
 .modal__checkbox input[type="checkbox"] + label:before, input[type="checkbox"]:checked + label:before{background-color:#f7f8f9;}
 
