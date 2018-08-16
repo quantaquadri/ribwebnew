@@ -1,6 +1,6 @@
 
 
-@import "css/reset.css";
+@import "https://res.cloudinary.com/dxuap8kxy/raw/upload/v1534439015/ribweb3/css/reset.css";
 /*===============================================*/
 /* 2. GENERAL		 						 */
 /*===============================================*/	
@@ -736,7 +736,7 @@ color:#000;
 	-o-background-size: cover; 
 	background-size: cover;
 	background-position:center bottom;
-	background-image:url(images/header.jpg);
+	background-image:url(https://res.cloudinary.com/dxuap8kxy/image/upload/v1534437950/ribweb3/header.jpg);
 	position:relative;
 	overflow:hidden;
 }
@@ -918,7 +918,7 @@ color:#000;
 	padding:20px 0 0 0;
 }
 .grid--about .grid__list li{
-	background:url(images/checked.png) no-repeat 0 50%;
+	background:url(https://res.cloudinary.com/dxuap8kxy/image/upload/v1534439241/ribweb3/css/checked.png) no-repeat 0 50%;
 	font-size:18px;
 	padding:10px 0 10px 40px;
 }
@@ -1360,10 +1360,10 @@ color:#000;
 	padding:3px 0 3px 12%;
 	text-align:center;
 	line-height:24px;
-	background:url(images/checked-pricing.png) no-repeat 0 50%;
+	background:url(https://res.cloudinary.com/dxuap8kxy/image/upload/v1534439290/ribweb3/css/checked-pricing.png) no-repeat 0 50%;
 }
 .pricing__plan--popular .pricing__list li {
-	background:url(images/checked-pricing-white.png) no-repeat 0 50%;
+	background:url(https://res.cloudinary.com/dxuap8kxy/image/upload/v1534439290/ribweb3/css/checked-pricing-white.png) no-repeat 0 50%;
 }
 .pricing__list li.disabled {
 	padding:3px 0 3px 12%;
@@ -1983,7 +1983,7 @@ transition: all 0.3s 0.12s;
 	list-style:none;
 }
 .modal__list li{
-	background:url(images/checked-pricing.png) no-repeat 0% 70%;
+	background:url(https://res.cloudinary.com/dxuap8kxy/image/upload/v1534439290/ribweb3/css/checked-pricing.png) no-repeat 0% 70%;
 	padding:0 0 0 25px;
 	margin:4px 0;
 	line-height:22px;
